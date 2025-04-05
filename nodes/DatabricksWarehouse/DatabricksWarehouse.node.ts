@@ -75,7 +75,7 @@ export class DatabricksWarehouse implements INodeType {
 
             Logger.info(`Databricks API Processed Output: ${JSON.stringify(outputData)}`);
 
-            return [this.helpers.returnJsonArray([{asd:"asd", hbn:"	ghn"}])]; // Return the processed output as JSON
+            return [this.helpers.returnJsonArray([outputData])]; // Return the processed output as JSON
 
         } catch (error) {
             Logger.error(`Databricks API Error: ${error}`);
