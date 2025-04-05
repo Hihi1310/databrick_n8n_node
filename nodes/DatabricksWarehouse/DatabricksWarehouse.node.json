@@ -1,0 +1,20 @@
+{
+	"node": "n8n-nodes-base.databricksWarehouse",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.databricks.com/api/workspace/introduction"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.databricks.com/api/workspace/statementexecution/executestatement#statement"
+			}
+		]
+	}
+}
